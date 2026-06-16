@@ -6,7 +6,7 @@
 
 **Compact Mode | live FPS | frame pacing | Game Health | public leaderboards**
 
-![Latest release](https://img.shields.io/github/v/release/ppgnox/gameflipz-native-releases?label=latest&color=2ea043)
+![Latest release](https://img.shields.io/badge/latest-v0.4.2-2ea043)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D6)
 ![Compact Mode](https://img.shields.io/badge/new-Compact%20Mode-00d9ff)
 ![Anti-cheat conservative](https://img.shields.io/badge/no%20overlays%20%2F%20hooks-anti--cheat%20conservative-8957e5)
