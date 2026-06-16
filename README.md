@@ -2,122 +2,129 @@
 
 <img src="assets/banner.png" alt="GamePulse" width="560">
 
-### Real-time gaming performance dashboard for Windows
+### Native Windows performance companion for PC gaming
 
-**FPS · frame pacing · Game Health · leaderboards** — external, anti-cheat-safe, local-first.
+**Compact Mode | live FPS | frame pacing | Game Health | public leaderboards**
 
 ![Latest release](https://img.shields.io/github/v/release/ppgnox/gameflipz-native-releases?label=latest&color=2ea043)
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20·%20x64-0078D6)
-![Runtime](https://img.shields.io/badge/runtime-self--contained%20·%20no%20installs-555)
-![Updater](https://img.shields.io/badge/updater-Velopack%20auto--update-8957e5)
-[![Code signing](https://img.shields.io/badge/code%20signing-dev%20cert%20·%20read%20before%20install-e3b341)](#-is-this-safe-to-run)
-![License](https://img.shields.io/badge/license-Proprietary%20·%20free%20to%20use-lightgrey)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D6)
+![Compact Mode](https://img.shields.io/badge/new-Compact%20Mode-00d9ff)
+![Anti-cheat conservative](https://img.shields.io/badge/no%20overlays%20%2F%20hooks-anti--cheat%20conservative-8957e5)
+![Updater](https://img.shields.io/badge/updater-Velopack-2ea043)
+[![Signing status](https://img.shields.io/badge/signing-SmartScreen%20prompt%20expected-e3b341)](#is-this-safe-to-run)
 
-[![Download GamePulse for Windows](https://img.shields.io/badge/⬇%20Download%20GamePulse-Windows%2010%20%2F%2011%20·%20x64-2ea043?style=for-the-badge)](https://github.com/ppgnox/gameflipz-native-releases/releases/latest/download/GamePulse-Setup.exe)
+[![Download GamePulse for Windows](https://img.shields.io/badge/Download%20GamePulse%200.4.2-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge)](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.2/GamePulse-Friend-Setup-0.4.2.exe)
 
-[Is it safe?](#-is-this-safe-to-run) ·
-[Privacy &amp; Security](#-privacy--security) ·
-[Features](#-features) ·
-[Updates](#-how-updates-work) ·
+[Install](docs/install.md) |
+[Screenshots](docs/screenshots.md) |
+[Privacy & Safety](docs/privacy-and-safety.md) |
+[Status](docs/status.md) |
+[Support](docs/support.md) |
 [All releases](https://github.com/ppgnox/gameflipz-native-releases/releases)
 
 </div>
 
 ---
 
-GamePulse is a lightweight Windows app that shows your real-time gaming performance — frames per
-second, frame timing, 1% lows, and a 0–100 **Game Health** score — in a clean cockpit dashboard.
-It measures everything **from outside the game** using Intel PresentMon (the same ETW telemetry
-Windows already exposes), so there are no overlays, no injection, and nothing that touches the game
-itself. Your data stays on your PC unless you choose to share it.
+![GamePulse Compact Mode hero](assets/hero-compact-mode.png)
 
-<div align="center">
-<img src="assets/dashboard.png" alt="GamePulse dashboard" width="49%">
-<img src="assets/leaderboard.png" alt="GamePulse leaderboard" width="49%">
-</div>
+GamePulse is a lightweight Windows app that shows your real-time gaming performance without becoming a game overlay. It tracks FPS, frame timing, system pressure, game sessions, public leaderboard results, driver readiness, and latency signals from outside the game using native Windows telemetry paths.
 
-## ⬇️ Download
+Your data stays on your PC unless you choose to share public leaderboard stats.
 
-**[Download GamePulse-Setup.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/latest/download/GamePulse-Setup.exe)** — this link always grabs the newest version.
+## New In v0.4.2: Compact Mode
 
-Prefer to see what's in each version first? Open the [**latest release**](https://github.com/ppgnox/gameflipz-native-releases/releases/latest)
-and grab `GamePulse-Setup.exe` (or the version-stamped `GamePulse-Friend-Setup-<version>.exe`).
+Compact Mode is the headline feature in `v0.4.2`: a smaller always-on-top GamePulse cockpit for active play sessions. Keep live FPS, CPU, GPU, RAM, VRAM, and game-health context visible while the full dashboard stays out of the way.
 
-Then run it — there's no separate runtime to install, the app is fully self-contained. (See
-[Is this safe to run?](#-is-this-safe-to-run) for the Windows prompt you'll see.)
+![GamePulse Compact Mode](assets/compact-mode.png)
 
-## 🛡️ Is this safe to run?
+- Smaller play-session widget for quick glances.
+- Same external telemetry model as the full dashboard.
+- No overlays, injection, hooks, game memory access, or game-file changes.
+- Ships with Counter-Strike 2 profile support, opt-in CPU/RAM process popups, chipset fallback improvements, latency copy cleanup, and updater package fixes.
 
-When you launch the installer, Windows **SmartScreen** may show *"Windows protected your PC / unknown publisher."*
-That is expected, and here's the honest reason:
+## Download
 
-> GamePulse is currently signed with our **own development certificate**, not a paid
-> publicly-trusted one yet. SmartScreen flags new publishers until they build reputation — it is a
-> **trust/reputation prompt, not a malware detection.** A publicly-trusted certificate is on the roadmap.
+**Recommended:** [Download GamePulse-Friend-Setup-0.4.2.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.2/GamePulse-Friend-Setup-0.4.2.exe)
 
-To continue: click **More info → Run anyway**.
+Prefer to read the notes first? Open [GamePulse 0.4.2](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.2) and download the branded setup from the release assets.
 
-Want to verify the download yourself? Each release lists the exact **SHA-256** of every asset, and the
-app updates only from this public feed over HTTPS. You can re-check any package with
-`vpk download github` or by comparing hashes against the release notes.
+GamePulse is self-contained. You do not need to install .NET separately.
 
-## 🔒 Privacy &amp; Security
+## Feature Highlights
 
-GamePulse is built to be **anti-cheat conservative** and **local-first**.
+| Area | What it gives players |
+| --- | --- |
+| Compact Mode | A smaller always-on-top readout for live FPS, CPU, GPU, RAM, VRAM, and game-health context. |
+| Performance cockpit | Full dashboard with FPS, frame time, capture health, bottleneck context, and system pressure. |
+| Public leaderboards | Opt-in Discord-linked score sharing across supported games and performance boards. |
+| Driver and latency checks | Local inventory cards, chipset/GPU guidance, read-only Windows latency checks, and input-stack summaries. |
+| Player-controlled diagnostics | CPU/RAM process popups are opt-in and clearly labeled because they use extra CPU while open. |
+| Updater support | Installed builds check this public release feed and install only after the user chooses to update. |
 
-**It does _not_:**
-- inject code into games, or hook DirectX / Vulkan / OpenGL
-- read or write game memory, attach a debugger, or modify game files
-- run an in-game overlay or install a kernel driver
-- collect ads/tracking telemetry
+## Screenshots
 
-**It _does_:**
-- measure FPS and frame timing **externally** via Intel PresentMon / ETW
-- keep your performance data **on your PC** (`%LOCALAPPDATA%\GamePulse`)
-- share **nothing** by default — public leaderboards and Discord sign-in are **opt-in**
+![GamePulse performance leaderboards](assets/leaderboard-public-stats.png)
 
-If you opt in to the public leaderboard, only the stats you submit plus your chosen display name and
-avatar are shared. **Your Discord user ID is never exposed** in public data, and you can remove your
-shared stats at any time from inside the app.
+![GamePulse player-controlled diagnostics](assets/settings-process-popups.png)
 
-## ✨ Features
+More screenshots: [docs/screenshots.md](docs/screenshots.md)
 
-- **Live performance cockpit** — FPS, frame time, 1% lows, and frame-pacing gauges in real time.
-- **Game Health score (0–100)** — blends raw performance with smoothness into one number.
-- **Automatic game detection** — recognizes your running game and labels it cleanly.
-- **Leaderboards (opt-in)** — Overview, per-game, and performance boards (Avg FPS, 1% Low, Frame Time)
-  with a podium and full standings.
-- **After-game scorecard** — see your personal best the moment you close a game.
-- **Latency &amp; Windows readiness checks** — frame-path and DPC signals in one place.
-- **No-admin FPS capture** — uses the PresentMon shared service so it works without running as admin.
-- **System at a glance** — CPU, GPU, RAM, and VRAM readouts.
+## Is This Safe To Run?
 
-<div align="center">
-<img src="assets/settings.png" alt="GamePulse settings" width="80%">
-</div>
+Windows may show **SmartScreen / unknown publisher** when you run the installer. That is expected right now because GamePulse is not yet signed with a production-trusted certificate. It is a Windows publisher-reputation prompt, not a malware detection.
 
-## 💻 System requirements
+To continue, choose **More info**, then **Run anyway**.
 
-- **Windows 10 or 11, 64-bit (x64)**
-- ~85 MB download, self-contained (no .NET install needed)
-- One optional **UAC prompt** to install the PresentMon FPS service (enables no-admin capture)
+Each release lists hashes for its assets, and installed builds update only from this public GitHub release feed over HTTPS.
 
-## 🔄 How updates work
+## Privacy And Safety
 
-GamePulse updates itself from this public feed using **Velopack** — there is **no silent or forced
-install.** Inside the app:
+GamePulse is intentionally anti-cheat conservative:
 
-1. Open the **Package** page.
-2. **Check for Update → Download Update → Restart to Finish.**
+- no game overlay,
+- no DLL injection,
+- no DirectX/Vulkan/OpenGL hooks,
+- no game memory reads or writes,
+- no debugger attach,
+- no game file modification,
+- no kernel driver,
+- no hidden background capture behavior.
 
-You'll also see a small in-app popup with the latest patch highlights when an update is available.
+Public leaderboards are opt-in. Nothing uploads until you sign in and choose to share eligible stats.
 
-## 📦 About this repository
+Read the full page: [Privacy and Safety](docs/privacy-and-safety.md)
 
-This is the **public release feed** for GamePulse (Velopack packages + release metadata). The
-application source code is maintained privately. Releases here are what the in-app updater reads.
+## How Updates Work
 
-## 📄 License
+GamePulse uses Velopack and this public GitHub repo as the update feed. Updates are not silent:
 
-**Proprietary — © GamePulse. Free for personal use; all rights reserved.** The published binaries
-may be downloaded and used at no cost; the source code is not open-source.
+1. Open GamePulse.
+2. Go to the **Package** page.
+3. Choose **Check for Update**.
+4. Download and restart only when you choose to install.
+
+## Current Notes
+
+- Latest public version: `v0.4.2`.
+- **Report a bug** is visible in the app, but not connected yet.
+- Production-trusted signing is planned; SmartScreen prompts remain expected for now.
+- Public stats and leaderboards are opt-in.
+
+See: [Status and Roadmap](docs/status.md)
+
+## About This Repository
+
+This is the public release and updater-feed repository for GamePulse. It hosts installer assets, Velopack packages, release metadata, screenshots, and public-facing support docs.
+
+The application source code is maintained separately.
+
+## Social Preview
+
+Use `assets/social-preview.png` for this repository's GitHub social preview image. See [docs/github-social-preview.md](docs/github-social-preview.md).
+
+## License
+
+**Proprietary - Copyright GamePulse. Free for personal use; all rights reserved.**
+
+The published binaries may be downloaded and used at no cost. The source code is not open-source.
