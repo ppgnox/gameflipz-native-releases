@@ -4,12 +4,12 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.3`
-- Main highlight: signed-in feedback plus source/backend hardening
-- Release page: [GamePulse 0.4.3](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.3)
+- Latest public release: `v0.4.4`
+- Main highlight: reliability hardening on top of signed-in feedback and source/backend hardening
+- Release page: [GamePulse 0.4.4](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.4)
 - Public updater feed: active
 
-## Shipped In v0.4.3
+## Shipped In v0.4.4
 
 - Signed-in Discord feedback submission from the app.
 - Bug reports create public GitHub issues; feature requests create public Ideas discussions.
@@ -17,6 +17,7 @@ This page keeps the public status clear without turning the README into a change
 - Atomic Supabase quota guards for score and feedback submission.
 - PresentMon setup uses verified helper/payload files for elevated service install/repair.
 - PresentMon CLI fallback start/stop work no longer blocks the WPF UI thread.
+- Latest hardening improves session-save ordering, feedback API failure handling, trusted feedback URL checks, process cleanup, and updater Patch Highlights formatting.
 
 ## Known Notes
 
