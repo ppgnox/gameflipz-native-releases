@@ -4,30 +4,29 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.2`
-- Main highlight: Compact Mode
-- Release page: [GamePulse 0.4.2](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.2)
+- Latest public release: `v0.4.3`
+- Main highlight: signed-in feedback plus source/backend hardening
+- Release page: [GamePulse 0.4.3](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.3)
 - Public updater feed: active
 
-## Shipped In v0.4.2
+## Shipped In v0.4.3
 
-- Compact Mode for a smaller always-on-top play-session widget.
-- Opt-in CPU/RAM process popups with an option to include or hide GamePulse itself.
-- Counter-Strike 2 built-in game profile support for leaderboard matching.
-- Clearer Intel/AMD chipset fallback when Windows does not list an exact chipset driver.
-- Cleaner Latency page copy and fewer internal/dev-facing messages.
-- PresentMon service payload included for FPS capture setup and repair.
+- Signed-in Discord feedback submission from the app.
+- Bug reports create public GitHub issues; feature requests create public Ideas discussions.
+- Public feedback shows a GamePulse support ID only; private submitter mapping stays in Supabase.
+- Atomic Supabase quota guards for score and feedback submission.
+- PresentMon setup uses verified helper/payload files for elevated service install/repair.
+- PresentMon CLI fallback start/stop work no longer blocks the WPF UI thread.
 
 ## Known Notes
 
-- **Report a bug** is visible in the app, but it is not connected yet.
-- Windows SmartScreen may show unknown-publisher prompts until production-trusted signing is configured.
+- Windows SmartScreen may show unknown-publisher prompts because this release is dev-signed, not production-trusted.
 - Public leaderboards are opt-in and require Discord sign-in.
+- In-app feedback is public on GitHub and requires Discord sign-in.
 - GamePulse is still evolving quickly, so release notes are the best source for what changed in a specific version.
 
 ## Near-Term Roadmap
 
-- Wire the in-app bug report flow to the support backend.
 - Improve production signing and Windows reputation.
 - Continue reducing telemetry overhead and making optional diagnostics clearer.
 - Keep expanding reviewed game profiles for leaderboard matching.

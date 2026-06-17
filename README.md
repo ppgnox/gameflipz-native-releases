@@ -6,14 +6,14 @@
 
 **Compact Mode | live FPS | frame pacing | Game Health | public leaderboards**
 
-![Latest release](https://img.shields.io/badge/latest-v0.4.2-2ea043)
+![Latest release](https://img.shields.io/badge/latest-v0.4.3-2ea043)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D6)
-![Compact Mode](https://img.shields.io/badge/new-Compact%20Mode-00d9ff)
+![Feedback](https://img.shields.io/badge/new-app%20feedback-00d9ff)
 ![Anti-cheat conservative](https://img.shields.io/badge/no%20overlays%20%2F%20hooks-anti--cheat%20conservative-8957e5)
 ![Updater](https://img.shields.io/badge/updater-Velopack-2ea043)
 [![Signing status](https://img.shields.io/badge/signing-SmartScreen%20prompt%20expected-e3b341)](#is-this-safe-to-run)
 
-[![Download GamePulse for Windows](https://img.shields.io/badge/Download%20GamePulse%200.4.2-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge)](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.2/GamePulse-Friend-Setup-0.4.2.exe)
+[![Download GamePulse for Windows](https://img.shields.io/badge/Download%20GamePulse%200.4.3-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge)](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.3/GamePulse-Friend-Setup-0.4.3.exe)
 
 [Install](docs/install.md) |
 [Screenshots](docs/screenshots.md) |
@@ -32,22 +32,24 @@ GamePulse is a lightweight Windows app that shows your real-time gaming performa
 
 Your data stays on your PC unless you choose to share public leaderboard stats.
 
-## New In v0.4.2: Compact Mode
+## New In v0.4.3: Feedback And Hardening
 
-Compact Mode is the headline feature in `v0.4.2`: a smaller always-on-top GamePulse cockpit for active play sessions. Keep live FPS, CPU, GPU, RAM, VRAM, and game-health context visible while the full dashboard stays out of the way.
+`v0.4.3` connects signed-in Discord feedback, tightens backend quota protection, and hardens FPS capture setup while keeping normal app startup non-admin. Bugs submit to public GitHub issues, feature requests submit to public Ideas discussions, and each public item shows only a GamePulse support ID.
 
 ![GamePulse Compact Mode](assets/compact-mode.png)
 
-- Smaller play-session widget for quick glances.
-- Same external telemetry model as the full dashboard.
+- Signed-in Discord users can submit bug reports and feature requests from the app.
+- Public feedback shows a support ID only; private identity mapping stays in Supabase.
+- Supabase score and feedback submissions use atomic quota guards.
+- PresentMon service setup verifies bundled payload hashes before elevation.
 - No overlays, injection, hooks, game memory access, or game-file changes.
-- Ships with Counter-Strike 2 profile support, opt-in CPU/RAM process popups, chipset fallback improvements, latency copy cleanup, and updater package fixes.
+- Dev-signed release: SmartScreen / unknown-publisher prompts are still expected.
 
 ## Download
 
-**Recommended:** [Download GamePulse-Friend-Setup-0.4.2.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.2/GamePulse-Friend-Setup-0.4.2.exe)
+**Recommended:** [Download GamePulse-Friend-Setup-0.4.3.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.3/GamePulse-Friend-Setup-0.4.3.exe)
 
-Prefer to read the notes first? Open [GamePulse 0.4.2](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.2) and download the branded setup from the release assets.
+Prefer to read the notes first? Open [GamePulse 0.4.3](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.3) and download the branded setup from the release assets.
 
 GamePulse is self-contained. You do not need to install .NET separately.
 
@@ -106,8 +108,8 @@ GamePulse uses Velopack and this public GitHub repo as the update feed. Updates 
 
 ## Current Notes
 
-- Latest public version: `v0.4.2`.
-- **Report a bug** is visible in the app, but not connected yet.
+- Latest public version: `v0.4.3`.
+- **Report a bug** and **Request a feature** submit public GitHub feedback after Discord sign-in.
 - Production-trusted signing is planned; SmartScreen prompts remain expected for now.
 - Public stats and leaderboards are opt-in.
 

@@ -1,10 +1,10 @@
 # GamePulse Screenshots
 
-These captures show the current `v0.4.2` GamePulse experience. They were generated from the shipped app UI in design-preview mode, so they show real product screens without starting live game telemetry.
+These captures show the current GamePulse experience. They were generated from the shipped app UI in design-preview mode, so they show real product screens without starting live game telemetry.
 
 ## Compact Mode
 
-Compact Mode is the main `v0.4.2` highlight. It keeps live FPS, CPU, GPU, RAM, VRAM, and game-health context visible in a smaller always-on-top widget while the full dashboard stays out of the way.
+Compact Mode keeps live FPS, CPU, GPU, RAM, VRAM, and game-health context visible in a smaller always-on-top widget while the full dashboard stays out of the way.
 
 ![GamePulse Compact Mode](../assets/compact-mode.png)
 

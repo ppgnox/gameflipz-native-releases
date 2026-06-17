@@ -4,9 +4,9 @@ GamePulse support is intentionally simple while the app is still in active frien
 
 ## Current Support Status
 
-- The in-app **Report a bug** entry is visible but not connected yet.
-- For now, use the latest release page as the source of truth for downloads and known notes.
-- If you are testing GamePulse directly with the developer, send the app version, what you clicked, what you expected, and a screenshot if possible.
+- The in-app **Report a bug** and **Request a feature** entries submit public GitHub feedback after Discord sign-in.
+- Bugs become GitHub issues, and feature requests become Ideas discussions.
+- Public feedback shows a GamePulse support ID only; do not include private account details in the message body.
 
 ## Helpful Details To Include
 
@@ -18,7 +18,7 @@ GamePulse support is intentionally simple while the app is still in active frien
 
 ## Common Install Notes
 
-- SmartScreen unknown-publisher prompts are expected until production-trusted signing is configured.
+- SmartScreen unknown-publisher prompts are expected because current builds are dev-signed, not production-trusted.
 - FPS capture may need a one-time UAC prompt to install or repair the PresentMon service.
 - Updates are user-triggered from the Package page; GamePulse should not silently install updates.
 
