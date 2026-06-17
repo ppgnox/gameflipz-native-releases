@@ -6,14 +6,14 @@
 
 **Compact Mode | live FPS | frame pacing | Game Health | public leaderboards**
 
-![Latest release](https://img.shields.io/badge/latest-v0.4.4-2ea043)
+![Latest release](https://img.shields.io/badge/latest-v0.4.11-2ea043)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D6)
 ![Feedback](https://img.shields.io/badge/new-app%20feedback-00d9ff)
 ![Anti-cheat conservative](https://img.shields.io/badge/no%20overlays%20%2F%20hooks-anti--cheat%20conservative-8957e5)
 ![Updater](https://img.shields.io/badge/updater-Velopack-2ea043)
 [![Signing status](https://img.shields.io/badge/signing-SmartScreen%20prompt%20expected-e3b341)](#is-this-safe-to-run)
 
-[![Download GamePulse for Windows](https://img.shields.io/badge/Download%20GamePulse%200.4.4-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge)](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.4/GamePulse-Friend-Setup-0.4.4.exe)
+[![Download GamePulse for Windows](https://img.shields.io/badge/Download%20GamePulse%200.4.11-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge)](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.11/GamePulse-Friend-Setup-0.4.11.exe)
 
 [Install](docs/install.md) |
 [Screenshots](docs/screenshots.md) |
@@ -32,25 +32,26 @@ GamePulse is a lightweight Windows app that shows your real-time gaming performa
 
 Your data stays on your PC unless you choose to share public leaderboard stats.
 
-## New In v0.4.4: Reliability Hardening
+## New In v0.4.11: Installer And PresentMon Fixes
 
-`v0.4.4` ships the latest bug-hunt hardening on top of the signed-in feedback and FPS capture work from v0.4.3. It improves session-save ordering, feedback API failure handling, trusted GitHub feedback links, process cleanup, and updater Patch Highlights formatting.
+`v0.4.11` improves the setup/update path on top of the signed-in feedback, backend, and reliability hardening from v0.4.4. It fixes duplicate PresentMon admin prompts after setup, improves reinstall/uninstall cleanup behavior, and refreshes the setup wizard with branded GamePulse imagery and cleaner copy.
 
 ![GamePulse Compact Mode](assets/compact-mode.png)
 
+- Setup should not ask again on first launch when PresentMon service setup already succeeded.
+- Reinstall and uninstall paths handle the GamePulse-owned PresentMon service more cleanly.
+- The setup wizard uses branded GamePulse imagery and no longer mentions retired LatencyMon setup details.
 - Signed-in Discord users can submit bug reports and feature requests from the app.
 - Public feedback shows a support ID only; private identity mapping stays in Supabase.
 - Supabase score and feedback submissions use atomic quota guards.
-- PresentMon service setup verifies bundled payload hashes before elevation.
-- Latest hardening preserves newer game sessions during shutdown and tightens feedback/update error handling.
 - No overlays, injection, hooks, game memory access, or game-file changes.
 - Dev-signed release: SmartScreen / unknown-publisher prompts are still expected.
 
 ## Download
 
-**Recommended:** [Download GamePulse-Friend-Setup-0.4.4.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.4/GamePulse-Friend-Setup-0.4.4.exe)
+**Recommended:** [Download GamePulse-Friend-Setup-0.4.11.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.11/GamePulse-Friend-Setup-0.4.11.exe)
 
-Prefer to read the notes first? Open [GamePulse 0.4.4](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.4) and download the branded setup from the release assets.
+Prefer to read the notes first? Open [GamePulse 0.4.11](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.11) and download the branded setup from the release assets.
 
 GamePulse is self-contained. You do not need to install .NET separately.
 
@@ -109,7 +110,7 @@ GamePulse uses Velopack and this public GitHub repo as the update feed. Updates 
 
 ## Current Notes
 
-- Latest public version: `v0.4.4`.
+- Latest public version: `v0.4.11`.
 - **Report a bug** and **Request a feature** submit public GitHub feedback after Discord sign-in.
 - Production-trusted signing is planned; SmartScreen prompts remain expected for now.
 - Public stats and leaderboards are opt-in.

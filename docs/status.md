@@ -4,13 +4,17 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.4`
-- Main highlight: reliability hardening on top of signed-in feedback and source/backend hardening
-- Release page: [GamePulse 0.4.4](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.4)
+- Latest public release: `v0.4.11`
+- Main highlight: installer, reinstall, and PresentMon cleanup fixes on top of the v0.4.4 reliability hardening
+- Release page: [GamePulse 0.4.11](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.11)
 - Public updater feed: active
 
-## Shipped In v0.4.4
+## Shipped In v0.4.11
 
+- Branded GamePulse setup wizard imagery and cleaner setup copy.
+- PresentMon setup/repair avoids duplicate first-launch admin prompts after successful setup.
+- Reinstall handling runs PresentMon setup only when needed.
+- Uninstall cleanup removes the GamePulse-owned PresentMon service and ProgramData payload path.
 - Signed-in Discord feedback submission from the app.
 - Bug reports create public GitHub issues; feature requests create public Ideas discussions.
 - Public feedback shows a GamePulse support ID only; private submitter mapping stays in Supabase.
