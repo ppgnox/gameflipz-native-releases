@@ -4,18 +4,18 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.13`
-- Main highlight: public feedback body redaction and PresentMon capture output boundary hardening
-- Release page: [GamePulse 0.4.13](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.13)
+- Latest public release: `v0.4.14`
+- Main highlight: FPS capture repair plus Discord/auth and public-data boundary hardening
+- Release page: [GamePulse 0.4.14](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.14)
 - Public updater feed: active
 
-## Shipped In v0.4.13
+## Shipped In v0.4.14
 
-- Public feedback bodies redact GitHub-token, bearer-header, callback-query, and key/value secret-shaped text before publishing.
-- PresentMon capture CSV output is kept inside GamePulse runtime data.
-- Regression coverage was added for feedback body scrubbing and PresentMon CSV path enforcement.
-- Prior v0.4.12 privacy, public-data, auth URL, CSV/export, telemetry, and display-name hardening remains included.
-- Prior v0.4.11 installer and PresentMon setup/reinstall/uninstall fixes remain included.
+- PresentMon Service repair is improved for broken FPS capture cases after install or update.
+- Elevated FPS helper results are reported more clearly when capture setup needs repair.
+- Discord auth and session boundaries are hardened without changing the sign-in workflow.
+- Public feedback and public-data paths redact more secret-shaped text before publication.
+- Prior privacy, public-data, feedback, capture-output, and installer hardening remains included.
 
 ## Known Notes
 
