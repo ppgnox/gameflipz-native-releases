@@ -6,14 +6,14 @@
 
 **Compact Mode | live FPS | frame pacing | Game Health | public leaderboards**
 
-![Latest release](https://img.shields.io/badge/latest-v0.4.11-2ea043)
-![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D6)
-![Feedback](https://img.shields.io/badge/new-app%20feedback-00d9ff)
-![Anti-cheat conservative](https://img.shields.io/badge/no%20overlays%20%2F%20hooks-anti--cheat%20conservative-8957e5)
-![Updater](https://img.shields.io/badge/updater-Velopack-2ea043)
-[![Signing status](https://img.shields.io/badge/signing-SmartScreen%20prompt%20expected-e3b341)](#is-this-safe-to-run)
+<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.11"><img alt="Latest release v0.4.11" src="https://img.shields.io/badge/latest-v0.4.11-2ea043"></a>
+<a href="docs/install.md"><img alt="Windows 10 and 11 x64" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D6"></a>
+<a href="docs/support.md"><img alt="App feedback" src="https://img.shields.io/badge/new-app%20feedback-00d9ff"></a>
+<a href="docs/privacy-and-safety.md"><img alt="Anti-cheat conservative" src="https://img.shields.io/badge/no%20overlays%20%2F%20hooks-anti--cheat%20conservative-8957e5"></a>
+<a href="docs/status.md"><img alt="Velopack updater" src="https://img.shields.io/badge/updater-Velopack-2ea043"></a>
+<a href="#is-this-safe-to-run"><img alt="Signing status: SmartScreen prompt expected" src="https://img.shields.io/badge/signing-SmartScreen%20prompt%20expected-e3b341"></a>
 
-[![Download GamePulse for Windows](https://img.shields.io/badge/Download%20GamePulse%200.4.11-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge)](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.11/GamePulse-Friend-Setup-0.4.11.exe)
+<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.11/GamePulse-Friend-Setup-0.4.11.exe"><img alt="Download GamePulse 0.4.11 for Windows 10 and 11 x64" src="https://img.shields.io/badge/Download%20GamePulse%200.4.11-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge"></a>
 
 [Install](docs/install.md) |
 [Screenshots](docs/screenshots.md) |
