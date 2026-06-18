@@ -6,11 +6,11 @@ GamePulse is a self-contained Windows app. You do not need to install .NET or a 
 
 Download the current friend/tester setup from the latest public release:
 
-[Download GamePulse-Friend-Setup-0.4.12.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.12/GamePulse-Friend-Setup-0.4.12.exe)
+[Download GamePulse-Friend-Setup-0.4.13.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.13/GamePulse-Friend-Setup-0.4.13.exe)
 
 You can also open the release page first:
 
-[GamePulse 0.4.12 release](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.12)
+[GamePulse 0.4.13 release](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.13)
 
 ## Windows SmartScreen
 
