@@ -4,24 +4,22 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.11`
-- Main highlight: installer, reinstall, and PresentMon cleanup fixes on top of the v0.4.4 reliability hardening
-- Release page: [GamePulse 0.4.11](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.11)
+- Latest public release: `v0.4.12`
+- Main highlight: privacy/public-data hardening, auth URL allow-listing, telemetry stability, and display-name cleanup
+- Release page: [GamePulse 0.4.12](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.12)
 - Public updater feed: active
 
-## Shipped In v0.4.11
+## Shipped In v0.4.12
 
-- Branded GamePulse setup wizard imagery and cleaner setup copy.
-- PresentMon setup/repair avoids duplicate first-launch admin prompts after successful setup.
-- Reinstall handling runs PresentMon setup only when needed.
-- Uninstall cleanup removes the GamePulse-owned PresentMon service and ProgramData payload path.
-- Signed-in Discord feedback submission from the app.
-- Bug reports create public GitHub issues; feature requests create public Ideas discussions.
-- Public feedback shows a GamePulse support ID only; private submitter mapping stays in Supabase.
-- Atomic Supabase quota guards for score and feedback submission.
-- PresentMon setup uses verified helper/payload files for elevated service install/repair.
-- PresentMon CLI fallback start/stop work no longer blocks the WPF UI thread.
-- Latest hardening improves session-save ordering, feedback API failure handling, trusted feedback URL checks, process cleanup, and updater Patch Highlights formatting.
+- Diagnostics and public feedback text scrub secrets, local paths, and backend details more aggressively.
+- Discord sign-in browser launches are restricted to trusted auth URLs.
+- CSV/session exports are protected from spreadsheet formulas and oversized public text fields.
+- Native telemetry start/stop handling is more stable.
+- PresentMon full executable paths are normalized before game matching.
+- Oversized legacy runtime migration files are skipped safely.
+- Session frame-time averages use valid frame samples.
+- Game/process display names are normalized across dashboard, ranks, recent sessions, settings, and public score payloads.
+- Prior v0.4.11 installer and PresentMon setup/reinstall/uninstall fixes remain included.
 
 ## Known Notes
 
