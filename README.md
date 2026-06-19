@@ -6,14 +6,14 @@
 
 **Compact Mode | live FPS | frame pacing | Game Health | public leaderboards**
 
-<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.15"><img alt="Latest release v0.4.15" src="https://img.shields.io/badge/latest-v0.4.15-2ea043"></a>
+<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.16"><img alt="Latest release v0.4.16" src="https://img.shields.io/badge/latest-v0.4.16-2ea043"></a>
 <a href="docs/install.md"><img alt="Windows 10 and 11 x64" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D6"></a>
 <a href="docs/support.md"><img alt="App feedback" src="https://img.shields.io/badge/new-app%20feedback-00d9ff"></a>
 <a href="docs/privacy-and-safety.md"><img alt="Anti-cheat conservative" src="https://img.shields.io/badge/no%20overlays%20%2F%20hooks-anti--cheat%20conservative-8957e5"></a>
 <a href="docs/status.md"><img alt="Velopack updater" src="https://img.shields.io/badge/updater-Velopack-2ea043"></a>
 <a href="#is-this-safe-to-run"><img alt="Signing status: SmartScreen prompt expected" src="https://img.shields.io/badge/signing-SmartScreen%20prompt%20expected-e3b341"></a>
 
-<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.15/GamePulse-Friend-Setup-0.4.15.exe"><img alt="Download GamePulse 0.4.15 for Windows 10 and 11 x64" src="https://img.shields.io/badge/Download%20GamePulse%200.4.15-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge"></a>
+<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.16/GamePulse-Friend-Setup-0.4.16.exe"><img alt="Download GamePulse 0.4.16 for Windows 10 and 11 x64" src="https://img.shields.io/badge/Download%20GamePulse%200.4.16-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge"></a>
 
 [Install](docs/install.md) |
 [Screenshots](docs/screenshots.md) |
@@ -32,26 +32,25 @@ GamePulse is a lightweight Windows app that shows your real-time gaming performa
 
 Your data stays on your PC unless you choose to share public leaderboard stats.
 
-## New In v0.4.15: FPS Capture Repair Follow-Up
+## New In v0.4.16: FPS Helper Repair Hotfix
 
-`v0.4.15` makes FPS capture repair more aggressive when the PresentMon Service is installed but still not delivering frame samples, and it expands diagnostics so support can see the repair state more clearly.
+`v0.4.16` restores a safe repair path when FPS capture is blocked because the protected PresentMon helper is missing after install or update.
 
 ![GamePulse Compact Mode](assets/compact-mode.png)
 
-- PresentMon Service can be restarted during FPS capture repair.
-- Ready-but-zero-frame capture states can trigger bounded app-side repair.
-- Native capture reconnects after FPS service readiness changes.
-- Failed setup/app repair attempts can be retried instead of getting stuck.
-- Diagnostics now include detection, PID, helper, and startup repair clues.
+- Friend Setup can refresh the protected FPS helper by itself.
+- Unsafe writable helper elevation stays blocked.
+- Diagnostics now include helper-refresh evidence.
+- PresentMon fallback cleanup logs are less noisy.
 - Prior privacy, auth, public-data, feedback, and installer hardening remains included.
 - No overlays, injection, hooks, game memory access, or game-file changes.
 - Dev-signed release: SmartScreen / unknown-publisher prompts are still expected.
 
 ## Download
 
-**Recommended:** [Download GamePulse-Friend-Setup-0.4.15.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.15/GamePulse-Friend-Setup-0.4.15.exe)
+**Recommended:** [Download GamePulse-Friend-Setup-0.4.16.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.16/GamePulse-Friend-Setup-0.4.16.exe)
 
-Prefer to read the notes first? Open [GamePulse 0.4.15](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.15) and download the branded setup from the release assets.
+Prefer to read the notes first? Open [GamePulse 0.4.16](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.16) and download the branded setup from the release assets.
 
 GamePulse is self-contained. You do not need to install .NET separately.
 
@@ -110,7 +109,7 @@ GamePulse uses Velopack and this public GitHub repo as the update feed. Updates 
 
 ## Current Notes
 
-- Latest public version: `v0.4.15`.
+- Latest public version: `v0.4.16`.
 - **Report a bug** and **Request a feature** submit public GitHub feedback after Discord sign-in.
 - Production-trusted signing is planned; SmartScreen prompts remain expected for now.
 - Public stats and leaderboards are opt-in.

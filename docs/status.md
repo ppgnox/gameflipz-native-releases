@@ -4,18 +4,17 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.15`
-- Main highlight: FPS capture repair follow-up with stronger diagnostics
-- Release page: [GamePulse 0.4.15](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.15)
+- Latest public release: `v0.4.16`
+- Main highlight: protected FPS helper repair hotfix
+- Release page: [GamePulse 0.4.16](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.16)
 - Public updater feed: active
 
-## Shipped In v0.4.15
+## Shipped In v0.4.16
 
-- PresentMon Service can be restarted during FPS capture repair.
-- Ready-but-zero-frame capture states can trigger bounded app-side repair.
-- Native capture reconnects after FPS service readiness changes.
-- Failed setup/app repair attempts can be retried instead of getting stuck.
-- Diagnostics include detection, PID, helper, and startup repair clues.
+- Friend Setup can refresh the protected FPS helper by itself.
+- Unsafe writable helper elevation stays blocked.
+- Diagnostics include helper-refresh evidence.
+- PresentMon fallback cleanup logs are less noisy.
 - Prior privacy, auth, public-data, feedback, and installer hardening remains included.
 
 ## Known Notes
