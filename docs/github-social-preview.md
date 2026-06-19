@@ -17,8 +17,8 @@ To set it:
 3. Find **Social preview**.
 4. Upload `assets/social-preview.png`.
 
-Recommended source file:
+Recommended source file in this repository:
 
 ```text
-I:\GAMEFLIPZ Monitor\gameflipz-native-releases\assets\social-preview.png
+assets/social-preview.png
 ```
