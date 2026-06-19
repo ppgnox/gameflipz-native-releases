@@ -4,19 +4,19 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.17`
-- Main highlight: updater-capable protected FPS helper repair
-- Release page: [GamePulse 0.4.17](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.17)
+- Latest public release: `v0.4.18`
+- Main highlight: safer FPS capture repair and already-installed setup flow
+- Release page: [GamePulse 0.4.18](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.18)
 - Public updater feed: active
 
-## Shipped In v0.4.17
+## Shipped In v0.4.18
 
-- The updater path can repair FPS capture after Friend Setup seeds the protected helper.
-- Stale protected helpers are used only after payload preflight passes.
-- Unsafe writable helper elevation stays blocked.
-- Diagnostics include updater repair capability, bootstrap status, selected helper, and preflight status.
-- Missing protected-helper machines still need Friend Setup once.
-- Prior privacy, auth, public-data, feedback, and installer hardening remains included.
+- Stops automatic service repair when a detected game is unfocused or not presenting frames.
+- Keeps no-op PresentMon helper repair from stopping an already-running service when payload hashes match.
+- Rejects common World of Warcraft companion utilities as game targets.
+- Keeps locked/captured `Wow.exe` targets from admitting companion utilities as game candidates.
+- Removes the launch-only bypass from the already-installed setup screen so Update / repair remains the default path.
+- Keeps prior updater-capable helper repair, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
 
 ## Known Notes
 
