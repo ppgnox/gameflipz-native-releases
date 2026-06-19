@@ -4,17 +4,18 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.16`
-- Main highlight: protected FPS helper repair hotfix
-- Release page: [GamePulse 0.4.16](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.16)
+- Latest public release: `v0.4.17`
+- Main highlight: updater-capable protected FPS helper repair
+- Release page: [GamePulse 0.4.17](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.17)
 - Public updater feed: active
 
-## Shipped In v0.4.16
+## Shipped In v0.4.17
 
-- Friend Setup can refresh the protected FPS helper by itself.
+- The updater path can repair FPS capture after Friend Setup seeds the protected helper.
+- Stale protected helpers are used only after payload preflight passes.
 - Unsafe writable helper elevation stays blocked.
-- Diagnostics include helper-refresh evidence.
-- PresentMon fallback cleanup logs are less noisy.
+- Diagnostics include updater repair capability, bootstrap status, selected helper, and preflight status.
+- Missing protected-helper machines still need Friend Setup once.
 - Prior privacy, auth, public-data, feedback, and installer hardening remains included.
 
 ## Known Notes
