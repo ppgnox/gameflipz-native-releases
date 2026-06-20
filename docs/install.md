@@ -6,11 +6,11 @@ GamePulse is a self-contained Windows app. You do not need to install .NET or a 
 
 Download the current friend/tester setup from the latest public release:
 
-[Download GamePulse-Friend-Setup-0.4.18.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.18/GamePulse-Friend-Setup-0.4.18.exe)
+[Download GamePulse-Friend-Setup-0.4.19.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.19/GamePulse-Friend-Setup-0.4.19.exe)
 
 You can also open the release page first:
 
-[GamePulse 0.4.18 release](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.18)
+[GamePulse 0.4.19 release](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.19)
 
 ## Windows SmartScreen
 
@@ -22,7 +22,7 @@ To continue, choose **More info**, then **Run anyway**.
 
 GamePulse uses Intel PresentMon and Windows ETW telemetry from outside the game. The installer/update package includes the PresentMon service payload used for no-admin FPS capture setup, repair, and uninstall cleanup.
 
-The app may request a one-time UAC prompt when setting up or repairing that service. Normal app use should stay non-elevated.
+The app may request a one-time UAC prompt when setting up or repairing that service. Normal app use should stay non-elevated. If an update leaves FPS capture needing repair, GamePulse now explains the issue first and waits for you to choose **Repair now**.
 
 ## Updating
 

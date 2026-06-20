@@ -4,19 +4,19 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.18`
-- Main highlight: safer FPS capture repair and already-installed setup flow
-- Release page: [GamePulse 0.4.18](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.18)
+- Latest public release: `v0.4.19`
+- Main highlight: friendly FPS capture repair prompt after updates
+- Release page: [GamePulse 0.4.19](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.19)
 - Public updater feed: active
 
-## Shipped In v0.4.18
+## Shipped In v0.4.19
 
-- Stops automatic service repair when a detected game is unfocused or not presenting frames.
-- Keeps no-op PresentMon helper repair from stopping an already-running service when payload hashes match.
-- Rejects common World of Warcraft companion utilities as game targets.
-- Keeps locked/captured `Wow.exe` targets from admitting companion utilities as game candidates.
-- Removes the launch-only bypass from the already-installed setup screen so Update / repair remains the default path.
-- Keeps prior updater-capable helper repair, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
+- Shows a friendly in-app prompt when FPS capture needs one repair step after an update.
+- Uses the protected local helper when available.
+- Downloads and verifies the official Friend Setup repair tool when the protected helper is missing.
+- Warns clearly when the player chooses `Not now` so FPS/frame-time `N/A` is expected until repair is completed.
+- Stops installed startup from silently requesting repair before the player chooses `Repair now`.
+- Keeps prior FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
 
 ## Known Notes
 
