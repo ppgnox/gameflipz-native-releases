@@ -4,19 +4,18 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.19`
-- Main highlight: friendly FPS capture repair prompt after updates
-- Release page: [GamePulse 0.4.19](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.19)
+- Latest public release: `v0.4.20`
+- Main highlight: direct update selection when an older downloaded update is already staged
+- Release page: [GamePulse 0.4.20](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.20)
 - Public updater feed: active
 
-## Shipped In v0.4.19
+## Shipped In v0.4.20
 
-- Shows a friendly in-app prompt when FPS capture needs one repair step after an update.
-- Uses the protected local helper when available.
-- Downloads and verifies the official Friend Setup repair tool when the protected helper is missing.
-- Warns clearly when the player chooses `Not now` so FPS/frame-time `N/A` is expected until repair is completed.
-- Stops installed startup from silently requesting repair before the player chooses `Repair now`.
-- Keeps prior FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
+- Checks the public update feed even when an older update is already downloaded and waiting for restart.
+- Shows the newest available release instead of forcing players through unnecessary multi-step updates.
+- Download and restart paths choose the newest ready package.
+- Adds updater smoke coverage for stale pending packages and version selection.
+- Keeps the `v0.4.19` friendly FPS repair prompt plus prior FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
 
 ## Known Notes
 
