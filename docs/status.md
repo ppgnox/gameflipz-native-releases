@@ -4,17 +4,18 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.21`
-- Main highlight: FPS capture cleanup after game close
-- Release page: [GamePulse 0.4.21](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.21)
+- Latest public release: `v0.4.22`
+- Main highlight: new Benchmark page for baseline-to-comparison performance runs
+- Release page: [GamePulse 0.4.22](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.22)
 - Public updater feed: active
 
-## Shipped In v0.4.21
+## Shipped In v0.4.22
 
-- Clears stale FPS capture targets when a game process exits.
-- Prevents a normal post-game close from triggering an unnecessary PresentMon repair/admin prompt for the old process.
-- Tightens PID reuse, zero-frame, session recording, retarget, and fallback restart handling.
-- Keeps the `v0.4.20` direct update selection fix, the `v0.4.19` friendly FPS repair prompt, plus prior FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
+- Adds a dedicated Benchmark page for guided baseline-to-comparison run readiness, target lock, live progress, and saved-run review.
+- Saves baseline and comparison captures together in one report so setting changes are easier to judge.
+- Explains average FPS, low-FPS evidence, frame consistency, and CPU/GPU pressure in player-facing language.
+- Keeps benchmark history and public leaderboard sharing under player control.
+- Keeps the `v0.4.21` FPS capture cleanup after game close, the `v0.4.20` direct update selection fix, the `v0.4.19` friendly FPS repair prompt, plus prior FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
 
 ## Known Notes
 
