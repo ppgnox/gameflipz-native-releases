@@ -36,6 +36,8 @@ Your data stays on your PC unless you choose to share public leaderboard stats.
 
 `v0.4.22` adds a dedicated Benchmark page for repeatable baseline-to-comparison tests, one combined saved report, and plain-English performance guidance.
 
+![GamePulse Benchmark page](assets/benchmark-page.png)
+
 - Adds guided Benchmark run readiness, target lock, live progress, and saved-run review.
 - Saves baseline and comparison captures together so setting changes are easier to judge.
 - Explains average FPS, low-FPS evidence, frame consistency, and CPU/GPU pressure in player-facing language.

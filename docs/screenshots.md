@@ -1,12 +1,18 @@
 # GamePulse Screenshots
 
-These captures show the current GamePulse experience. They were generated from the shipped app UI in design-preview mode, so they show real product screens without starting live game telemetry.
+These captures show the current GamePulse experience. They use real product screens and stay outside the game, with no overlay, injection, hooks, or game-memory access.
 
 ## Compact Mode
 
 Compact Mode keeps live FPS, CPU, GPU, RAM, VRAM, and game-health context visible in a smaller always-on-top widget while the full dashboard stays out of the way.
 
 ![GamePulse Compact Mode](../assets/compact-mode.png)
+
+## Benchmark Page
+
+Benchmark guides a target-locked baseline run, a comparison run, and one combined saved report so settings changes are easier to judge.
+
+![GamePulse Benchmark page](../assets/benchmark-page.png)
 
 ## Full Dashboard
 
