@@ -4,18 +4,18 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.22`
-- Main highlight: new Benchmark page for baseline-to-comparison performance runs
-- Release page: [GamePulse 0.4.22](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.22)
+- Latest public release: `v0.4.23`
+- Main highlight: tighter Benchmark targeting and cleaner compact overlays
+- Release page: [GamePulse 0.4.23](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.23)
 - Public updater feed: active
 
-## Shipped In v0.4.22
+## Shipped In v0.4.23
 
-- Adds a dedicated Benchmark page for guided baseline-to-comparison run readiness, target lock, live progress, and saved-run review.
-- Saves baseline and comparison captures together in one report so setting changes are easier to judge.
-- Explains average FPS, low-FPS evidence, frame consistency, and CPU/GPU pressure in player-facing language.
-- Keeps benchmark history and public leaderboard sharing under player control.
-- Keeps the `v0.4.21` FPS capture cleanup after game close, the `v0.4.20` direct update selection fix, the `v0.4.19` friendly FPS repair prompt, plus prior FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
+- Benchmark now waits for an active game target before naming or starting a run.
+- Dashboard and Benchmark are less likely to identify background utility apps as games.
+- More reviewed titles show clean player-facing names across Dashboard, Benchmark, saved runs, and exports.
+- Compact Dashboard and Benchmark overlays have clearer labels, tighter controls, and a direct close affordance.
+- Keeps the `v0.4.22` Benchmark Lab and universal GPU telemetry improvements, plus prior FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
 
 ## Known Notes
 

@@ -10,7 +10,7 @@
 ## Highlights
 
 - Stops automatic service repair when a detected game is unfocused or not presenting frames.
-- Keeps no-op PresentMon helper repair from stopping an already-running service when payload hashes match.
+- Keeps no-op FPS repair from disrupting an already-running service.
 - Rejects common World of Warcraft companion utilities as game targets.
 - Keeps locked/captured `Wow.exe` targets from admitting companion utilities as game candidates.
 - Adds diagnostics fields showing when no-frame repair was suppressed because the target is unfocused.

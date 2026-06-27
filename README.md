@@ -6,14 +6,14 @@
 
 **Benchmark page | Compact Mode | live FPS | frame pacing | Game Health | public leaderboards**
 
-<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.22"><img alt="Latest release v0.4.22" src="https://img.shields.io/badge/latest-v0.4.22-2ea043"></a>
+<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.23"><img alt="Latest release v0.4.23" src="https://img.shields.io/badge/latest-v0.4.23-2ea043"></a>
 <a href="docs/install.md"><img alt="Windows 10 and 11 x64" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D6"></a>
 <a href="docs/support.md"><img alt="App feedback" src="https://img.shields.io/badge/new-app%20feedback-00d9ff"></a>
 <a href="docs/privacy-and-safety.md"><img alt="Anti-cheat conservative" src="https://img.shields.io/badge/no%20overlays%20%2F%20hooks-anti--cheat%20conservative-8957e5"></a>
 <a href="docs/status.md"><img alt="Velopack updater" src="https://img.shields.io/badge/updater-Velopack-2ea043"></a>
 <a href="#is-this-safe-to-run"><img alt="Signing status: SmartScreen prompt expected" src="https://img.shields.io/badge/signing-SmartScreen%20prompt%20expected-e3b341"></a>
 
-<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.22/GamePulse-Friend-Setup-0.4.22.exe"><img alt="Download GamePulse 0.4.22 for Windows 10 and 11 x64" src="https://img.shields.io/badge/Download%20GamePulse%200.4.22-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge"></a>
+<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.23/GamePulse-Friend-Setup-0.4.23.exe"><img alt="Download GamePulse 0.4.23 for Windows 10 and 11 x64" src="https://img.shields.io/badge/Download%20GamePulse%200.4.23-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge"></a>
 
 [Install](docs/install.md) |
 [Screenshots](docs/screenshots.md) |
@@ -32,27 +32,27 @@ GamePulse is a lightweight Windows app that shows your real-time gaming performa
 
 Your data stays on your PC unless you choose to share public leaderboard stats.
 
-## New In v0.4.22: Benchmark Page
+## New In v0.4.23: Compact Overlays + Benchmark Targeting
 
-`v0.4.22` adds a dedicated Benchmark page for repeatable baseline-to-comparison tests, one combined saved report, and plain-English performance guidance.
+`v0.4.23` tightens Benchmark target readiness, improves compact overlay clarity, and broadens player-facing game names.
 
-![GamePulse Benchmark page](assets/benchmark-page.png)
+![GamePulse Compact overlays and Benchmark Lab](assets/release-v0.4.23-overlay-composite.png)
 
-- Adds guided Benchmark run readiness, target lock, live progress, and saved-run review.
-- Saves baseline and comparison captures together so setting changes are easier to judge.
-- Explains average FPS, low-FPS evidence, frame consistency, and CPU/GPU pressure in player-facing language.
-- Keeps benchmark history and public leaderboard sharing under player control.
-- Includes the `v0.4.21` FPS capture cleanup after game close.
-- Includes the `v0.4.20` direct update selection fix and the `v0.4.19` friendly FPS repair prompt.
+- Benchmark now waits for an active game target before naming or starting a run.
+- Dashboard and Benchmark are less likely to identify background utility apps as games.
+- More reviewed titles show clean player-facing names across Dashboard, Benchmark, saved runs, and exports.
+- Compact Dashboard and Benchmark overlays have clearer labels, tighter controls, and a direct close affordance.
+- Includes the `v0.4.22` Benchmark Lab and universal GPU telemetry improvements.
+- Includes the `v0.4.21` FPS capture cleanup, `v0.4.20` update selection fix, and `v0.4.19` friendly FPS repair prompt.
 - Prior privacy, auth, public-data, feedback, and installer hardening remains included.
 - No overlays, injection, hooks, game memory access, or game-file changes.
 - Dev-signed release: SmartScreen / unknown-publisher prompts are still expected.
 
 ## Download
 
-**Recommended:** [Download GamePulse-Friend-Setup-0.4.22.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.22/GamePulse-Friend-Setup-0.4.22.exe)
+**Recommended:** [Download GamePulse-Friend-Setup-0.4.23.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.23/GamePulse-Friend-Setup-0.4.23.exe)
 
-Prefer to read the notes first? Open [GamePulse 0.4.22](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.22) and download the branded setup from the release assets.
+Prefer to read the notes first? Open [GamePulse 0.4.23](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.23) and download the branded setup from the release assets.
 
 GamePulse is self-contained. You do not need to install .NET separately.
 
@@ -112,7 +112,7 @@ GamePulse uses Velopack and this public GitHub repo as the update feed. Updates 
 
 ## Current Notes
 
-- Latest public version: `v0.4.22`.
+- Latest public version: `v0.4.23`.
 - **Report a bug** and **Request a feature** submit public GitHub feedback after Discord sign-in.
 - Production-trusted signing is planned; SmartScreen prompts remain expected for now.
 - Public stats and leaderboards are opt-in.

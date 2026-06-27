@@ -8,6 +8,12 @@ Compact Mode keeps live FPS, CPU, GPU, RAM, VRAM, and game-health context visibl
 
 ![GamePulse Compact Mode](../assets/compact-mode.png)
 
+## Compact Overlays And Benchmark Lab
+
+The compact Dashboard overlay and Benchmark overlay keep quick reads and guided runs available without becoming a game overlay.
+
+![GamePulse Compact overlays and Benchmark Lab](../assets/release-v0.4.23-overlay-composite.png)
+
 ## Benchmark Page
 
 Benchmark guides a target-locked baseline run, a comparison run, and one combined saved report so settings changes are easier to judge.

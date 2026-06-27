@@ -13,9 +13,9 @@ Compact Mode is the main update in `v0.4.2`: a smaller always-on-top GamePulse w
 - **Compact Mode:** smaller play-session cockpit with live readouts.
 - **Counter-Strike 2 support:** added to the built-in game profile list for leaderboard matching.
 - **CPU/RAM process popups:** now opt-in, lighter, and can hide GamePulse itself from the process list.
-- **Chipset fallback:** Intel and AMD platform fallback copy is clearer when Windows does not list an exact chipset driver.
+- **Driver guidance:** platform driver copy is clearer when Windows does not list an exact chipset driver.
 - **Latency page cleanup:** removed internal/dev-facing text from the release view.
-- **Updater package:** includes the bundled PresentMon service payload used for FPS capture setup and repair.
+- **Updater package:** includes bundled FPS capture setup and repair components.
 
 ## Safety And Privacy Notes
 

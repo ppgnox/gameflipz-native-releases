@@ -13,5 +13,5 @@
 - Lets Friend Setup refresh the protected helper by itself.
 - Keeps unsafe writable helper elevation blocked.
 - Adds helper-refresh evidence to diagnostics exports.
-- Reduces noisy PresentMon fallback cleanup log entries.
+- Reduces noisy FPS cleanup log entries.
 - Dev-signed release: SmartScreen / unknown-publisher prompts remain expected until production signing is added.

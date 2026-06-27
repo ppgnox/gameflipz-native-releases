@@ -12,11 +12,11 @@
 - Signed-in Discord users can submit bug reports and feature requests from GamePulse.
 - Bugs create public GitHub issues; feature requests create public Ideas discussions.
 - Public feedback shows a `GamePulse support ID` only, while private submitter mapping stays in Supabase.
-- Feedback has conservative free-tier protections: per-user caps, a global daily cap, and a backend kill switch.
-- Supabase score and feedback submissions use atomic quota reservations.
-- PresentMon service install/repair verifies bundled payload hashes before elevation.
-- PresentMon CLI fallback start/stop work no longer blocks the WPF UI thread.
-- Native telemetry, diagnostics, Discord auth URL handling, HTTP client lifecycle, and runtime-data migration paths were hardened.
+- Feedback has conservative submission limits and a backend safety switch.
+- Score and feedback submissions handle usage limits more reliably.
+- FPS capture setup and repair validate bundled components before requesting elevation.
+- FPS capture repair work no longer blocks the app UI.
+- Native telemetry, diagnostics, sign-in URL handling, networking, and local-data migration paths were hardened.
 - LatencyMon app/runtime packaging was removed; the local Windows latency audit remains.
 
 ## Signing Note
