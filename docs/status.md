@@ -4,18 +4,19 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.23`
-- Main highlight: tighter Benchmark targeting and cleaner compact overlays
-- Release page: [GamePulse 0.4.23](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.23)
+- Latest public release: `v0.4.24`
+- Main highlight: Driver Health Console and redesigned Latency page
+- Release page: [GamePulse 0.4.24](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.24)
 - Public updater feed: active
 
-## Shipped In v0.4.23
+## Shipped In v0.4.24
 
-- Benchmark now waits for an active game target before naming or starting a run.
-- Dashboard and Benchmark are less likely to identify background utility apps as games.
-- More reviewed titles show clean player-facing names across Dashboard, Benchmark, saved runs, and exports.
-- Compact Dashboard and Benchmark overlays have clearer labels, tighter controls, and a direct close affordance.
-- Keeps the `v0.4.22` Benchmark Lab and universal GPU telemetry improvements, plus prior FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
+- Adds the Driver Health Console with clearer real-device buckets, driver freshness, and safer update guidance.
+- Adds the Windows driver update-center flow for selectable driver offers.
+- Redesigns the Latency page into a structured console with a pylon hero, readiness summary, attention rows, and aligned Windows checks.
+- Fixes latency audit classification so GPU interrupt mode and default display composition report as ready when Windows exposes safe values.
+- Adds the Microsoft Store prototype package lane while keeping the normal Friend Setup updater path available.
+- Keeps the `v0.4.23` Benchmark targeting, compact overlay clarity, cleaner player-facing game names, and prior FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
 
 ## Known Notes
 

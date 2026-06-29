@@ -1,7 +1,7 @@
 # GamePulse v0.4.23
 
-`v0.4.23` is the current public GamePulse release. It focuses on Benchmark
-target readiness, compact overlay polish, and cleaner player-facing game names.
+`v0.4.23` focuses on Benchmark target readiness, compact overlay polish, and
+cleaner player-facing game names.
 
 ![GamePulse Compact overlays and Benchmark Lab](../assets/release-v0.4.23-overlay-composite.png)
 
