@@ -22,7 +22,7 @@ Legacy GAME FLIPZ native data may be copied forward from `%LOCALAPPDATA%\GAME FL
 
 ## Public Stats
 
-Public leaderboards are opt-in. Nothing is submitted to public boards until the player signs in and chooses to share eligible stats.
+Public leaderboards are opt-in. Nothing is submitted to public boards until the player signs in and chooses to share eligible stats. Public ranking also requires verified Fair-Play evidence; low-evidence, low-resolution, idle, unfocused, unstable, or review/quarantine sessions do not appear on default public boards.
 
 When public stats are used, GamePulse may submit:
 
