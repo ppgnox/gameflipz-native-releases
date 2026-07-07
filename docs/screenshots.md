@@ -8,6 +8,18 @@ Compact Mode keeps live FPS, CPU, GPU, RAM, VRAM, and game-health context visibl
 
 ![GamePulse Compact Mode](../assets/compact-mode.png)
 
+## Driver Health Console
+
+Driver Health separates installable updates, attention items, real devices, and optional vendor tools so update guidance does not blur into inventory.
+
+![GamePulse Driver Health Console](../assets/drivers-console.png)
+
+## Latency Controls
+
+Latency checks explain Windows, input, display, network, service, overlay, and security settings, with explicit Apply/Revert controls for selected HKCU tweaks.
+
+![GamePulse Latency controls](../assets/latency-controls.png)
+
 ## Compact Overlays And Benchmark Lab
 
 The compact Dashboard overlay and Benchmark overlay keep quick reads and guided runs available without becoming a game overlay.

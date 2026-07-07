@@ -4,16 +4,16 @@
 
 ### Native Windows performance companion for PC gaming
 
-**Benchmark page | Compact Mode | live FPS | frame pacing | Game Health | public leaderboards**
+**Driver Health | Latency controls | Benchmark page | Compact Mode | live FPS | public leaderboards**
 
-<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.25"><img alt="Latest release v0.4.25" src="https://img.shields.io/badge/latest-v0.4.25-2ea043"></a>
+<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.26"><img alt="Latest release v0.4.26" src="https://img.shields.io/badge/latest-v0.4.26-2ea043"></a>
 <a href="docs/install.md"><img alt="Windows 10 and 11 x64" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D6"></a>
 <a href="docs/support.md"><img alt="App feedback" src="https://img.shields.io/badge/new-app%20feedback-00d9ff"></a>
 <a href="docs/privacy-and-safety.md"><img alt="Anti-cheat conservative" src="https://img.shields.io/badge/no%20overlays%20%2F%20hooks-anti--cheat%20conservative-8957e5"></a>
 <a href="docs/status.md"><img alt="Velopack updater" src="https://img.shields.io/badge/updater-Velopack-2ea043"></a>
 <a href="#is-this-safe-to-run"><img alt="Signing status: SmartScreen prompt expected" src="https://img.shields.io/badge/signing-SmartScreen%20prompt%20expected-e3b341"></a>
 
-<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.25/GamePulse-Friend-Setup-0.4.25.exe"><img alt="Download GamePulse 0.4.25 for Windows 10 and 11 x64" src="https://img.shields.io/badge/Download%20GamePulse%200.4.25-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge"></a>
+<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.26/GamePulse-Friend-Setup-0.4.26.exe"><img alt="Download GamePulse 0.4.26 for Windows 10 and 11 x64" src="https://img.shields.io/badge/Download%20GamePulse%200.4.26-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge"></a>
 
 [Install](docs/install.md) |
 [Screenshots](docs/screenshots.md) |
@@ -26,31 +26,31 @@
 
 ---
 
-![GamePulse Fair-Play leaderboard hero](assets/hero-compact-mode.png)
+![GamePulse Driver Health and Latency Controls hero](assets/hero-drivers-latency.png)
 
 GamePulse is a lightweight Windows app that shows your real-time gaming performance without becoming a game overlay. It tracks FPS, frame timing, Benchmark runs, system pressure, game sessions, public leaderboard results, driver readiness, and latency signals from outside the game using native Windows telemetry paths.
 
 Your data stays on your PC unless you choose to share public leaderboard stats.
 
-## New In v0.4.25: Fair-Play V2.1 Leaderboards
+## New In v0.4.26: Driver Health And Latency Controls
 
-`v0.4.25` hardens public leaderboard ranking with verified Fair-Play V2.1 score evidence and server-issued one-use score tickets.
+`v0.4.26` makes GamePulse's Driver Health and Latency pages more useful before and after a gaming session.
 
-- Default public boards now show verified/ranked V2 rows only.
-- Tiny-resolution, unfocused, long-idle, unstable-capture, target-switch, and weak-evidence sessions do not rank publicly.
-- Menu-like or unusual sessions can be quarantined for review instead of deleted.
-- Score submissions require server-side board allowlists, matching game process evidence, and one-use score tickets.
-- Legacy leaderboard rows stay stored but are hidden from the default public boards.
-- Includes the `v0.4.24` Driver Health Console, Latency page redesign, and Microsoft Store prototype package lane.
-- Prior privacy, auth, public-data, feedback, and installer hardening remains included.
+- Driver Health separates installable Windows updates, attention items, real devices, and optional vendor tools.
+- GPU, chipset, BIOS, network, audio, and input rows now surface clearer vendor app/support actions.
+- NVIDIA online checks are conservative: GamePulse only claims a newer version when it can tie the result to the detected product family.
+- If online driver compatibility cannot be proven, GamePulse opens official vendor guidance instead of making an update claim.
+- Latency checks now cover Windows, input, display, network, service, overlay, and security settings.
+- Game Mode, GameDVR, mouse acceleration, and transparency tweaks have explicit Apply/Revert actions that restore the original HKCU value or original absence.
+- Includes the `v0.4.25` Fair-Play V2.1 leaderboard hardening and previous installer/updater safeguards.
 - No overlays, injection, hooks, game memory access, or game-file changes.
 - Dev-signed release: SmartScreen / unknown-publisher prompts are still expected.
 
 ## Download
 
-**Recommended:** [Download GamePulse-Friend-Setup-0.4.25.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.25/GamePulse-Friend-Setup-0.4.25.exe)
+**Recommended:** [Download GamePulse-Friend-Setup-0.4.26.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.26/GamePulse-Friend-Setup-0.4.26.exe)
 
-Prefer to read the notes first? Open [GamePulse 0.4.25](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.25) and download the branded setup from the release assets.
+Prefer to read the notes first? Open [GamePulse 0.4.26](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.26) and download the branded setup from the release assets.
 
 GamePulse is self-contained. You do not need to install .NET separately.
 
@@ -62,11 +62,15 @@ GamePulse is self-contained. You do not need to install .NET separately.
 | Benchmark page | Guided baseline/comparison tests, one combined saved report, and plain-English takeaways for settings changes. |
 | Performance cockpit | Full dashboard with FPS, frame time, capture health, bottleneck context, and system pressure. |
 | Public leaderboards | Opt-in Discord-linked score sharing across supported games and performance boards. |
-| Driver and latency checks | Local inventory cards, chipset/GPU guidance, read-only Windows latency checks, and input-stack summaries. |
+| Driver and latency checks | Local inventory cards, conservative GPU/chipset guidance, reversible latency tweaks, and input-stack summaries. |
 | Player-controlled diagnostics | CPU/RAM process popups are opt-in and clearly labeled because they use extra CPU while open. |
 | Updater support | Installed builds check this public release feed and install only after the user chooses to update. |
 
 ## Screenshots
+
+![GamePulse Driver Health Console](assets/drivers-console.png)
+
+![GamePulse Latency controls](assets/latency-controls.png)
 
 ![GamePulse performance leaderboards](assets/leaderboard-public-stats.png)
 
@@ -110,7 +114,7 @@ GamePulse uses Velopack and this public GitHub repo as the update feed. Updates 
 
 ## Current Notes
 
-- Latest public version: `v0.4.25`.
+- Latest public version: `v0.4.26`.
 - **Report a bug** and **Request a feature** submit public GitHub feedback after Discord sign-in.
 - Production-trusted signing is planned; SmartScreen prompts remain expected for now.
 - Public stats and leaderboards are opt-in.

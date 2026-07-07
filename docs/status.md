@@ -4,19 +4,19 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.25`
-- Main highlight: Fair-Play V2.1 verified public leaderboards
-- Release page: [GamePulse 0.4.25](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.25)
+- Latest public release: `v0.4.26`
+- Main highlight: Driver Health and Latency controls
+- Release page: [GamePulse 0.4.26](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.26)
 - Public updater feed: active
 
-## Shipped In v0.4.25
+## Shipped In v0.4.26
 
-- Default public boards show only verified/ranked Fair-Play V2 rows.
-- Public score submits require a server-issued one-use score ticket.
-- Low-resolution, unfocused, idle, target-switch, unstable-capture, and weak-evidence sessions do not rank publicly.
-- Menu-like or suspicious sessions can be stored for review without appearing on public boards.
-- Legacy/unverified leaderboard rows stay stored but are hidden from default public boards.
-- Keeps the `v0.4.24` Driver Health Console, Latency page redesign, Store prototype package lane, and prior FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
+- Driver Health separates installable updates, attention items, real devices, and optional vendor tools.
+- GPU, chipset, BIOS, network, audio, and input-driver rows expose clearer vendor app/support actions.
+- NVIDIA online checks only claim a newer driver when GamePulse can tie the result to the detected product family.
+- Latency checks cover Windows, input, display, network, service, overlay, and security settings.
+- Selected latency tweaks have explicit Apply/Revert actions that restore original HKCU values or original absence.
+- Keeps the `v0.4.25` Fair-Play V2.1 leaderboard hardening, Store prototype source, FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
 
 ## Known Notes
 
@@ -30,5 +30,5 @@ This page keeps the public status clear without turning the README into a change
 - Improve production signing and Windows reputation.
 - Continue reducing telemetry overhead and making optional diagnostics clearer.
 - Keep expanding reviewed game profiles for leaderboard matching.
-- Evaluate public resolution buckets after real-world Fair-Play V2.1 results.
+- Keep refining driver-family matching as more real hardware is tested.
 - Add more user-facing install/update troubleshooting guidance as friend testing exposes issues.
