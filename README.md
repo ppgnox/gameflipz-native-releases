@@ -4,16 +4,16 @@
 
 ### Native Windows performance companion for PC gaming
 
-**Driver Health | Latency controls | Benchmark page | Compact Mode | live FPS | public leaderboards**
+**Theme Studio | Overlay Studio | Driver Health | Benchmark page | Compact Mode | live FPS**
 
-<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.26"><img alt="Latest release v0.4.26" src="https://img.shields.io/badge/latest-v0.4.26-2ea043"></a>
+<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.27"><img alt="Latest release v0.4.27" src="https://img.shields.io/badge/latest-v0.4.27-2ea043"></a>
 <a href="docs/install.md"><img alt="Windows 10 and 11 x64" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D6"></a>
 <a href="docs/support.md"><img alt="App feedback" src="https://img.shields.io/badge/new-app%20feedback-00d9ff"></a>
 <a href="docs/privacy-and-safety.md"><img alt="Anti-cheat conservative" src="https://img.shields.io/badge/no%20overlays%20%2F%20hooks-anti--cheat%20conservative-8957e5"></a>
 <a href="docs/status.md"><img alt="Velopack updater" src="https://img.shields.io/badge/updater-Velopack-2ea043"></a>
 <a href="#is-this-safe-to-run"><img alt="Signing status: SmartScreen prompt expected" src="https://img.shields.io/badge/signing-SmartScreen%20prompt%20expected-e3b341"></a>
 
-<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.26/GamePulse-Friend-Setup-0.4.26.exe"><img alt="Download GamePulse 0.4.26 for Windows 10 and 11 x64" src="https://img.shields.io/badge/Download%20GamePulse%200.4.26-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge"></a>
+<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.27/GamePulse-Friend-Setup-0.4.27.exe"><img alt="Download GamePulse 0.4.27 for Windows 10 and 11 x64" src="https://img.shields.io/badge/Download%20GamePulse%200.4.27-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge"></a>
 
 [Install](docs/install.md) |
 [Screenshots](docs/screenshots.md) |
@@ -32,25 +32,24 @@ GamePulse is a lightweight Windows app that shows your real-time gaming performa
 
 Your data stays on your PC unless you choose to share public leaderboard stats.
 
-## New In v0.4.26: Driver Health And Latency Controls
+## New In v0.4.27: Theme Studio And Overlay Studio
 
-`v0.4.26` makes GamePulse's Driver Health and Latency pages more useful before and after a gaming session.
+`v0.4.27` adds player-facing customization while keeping GamePulse external and anti-cheat conservative.
 
-- Driver Health separates installable Windows updates, attention items, real devices, and optional vendor tools.
-- GPU, chipset, BIOS, network, audio, and input rows now surface clearer vendor app/support actions.
-- NVIDIA online checks are conservative: GamePulse only claims a newer version when it can tie the result to the detected product family.
-- If online driver compatibility cannot be proven, GamePulse opens official vendor guidance instead of making an update claim.
-- Latency checks now cover Windows, input, display, network, service, overlay, and security settings.
-- Game Mode, GameDVR, mouse acceleration, and transparency tweaks have explicit Apply/Revert actions that restore the original HKCU value or original absence.
-- Includes the `v0.4.25` Fair-Play V2.1 leaderboard hardening and previous installer/updater safeguards.
+- Theme Studio adds app-wide Dashboard palette presets, saved custom colors, and instant preview updates.
+- Overlay Studio adds Compact Mode styling controls without editing files.
+- Dashboard Studio and Overlay Studio now sit together in the customization flow.
+- Theme switching persists cleaner with less settings churn.
+- Private feedback and score-submission ledger tables now use explicit service-role-only database policies.
+- Includes the `v0.4.26` Driver Health and Latency controls plus the `v0.4.25` Fair-Play V2.1 leaderboard hardening.
 - No overlays, injection, hooks, game memory access, or game-file changes.
 - Dev-signed release: SmartScreen / unknown-publisher prompts are still expected.
 
 ## Download
 
-**Recommended:** [Download GamePulse-Friend-Setup-0.4.26.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.26/GamePulse-Friend-Setup-0.4.26.exe)
+**Recommended:** [Download GamePulse-Friend-Setup-0.4.27.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.27/GamePulse-Friend-Setup-0.4.27.exe)
 
-Prefer to read the notes first? Open [GamePulse 0.4.26](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.26) and download the branded setup from the release assets.
+Prefer to read the notes first? Open [GamePulse 0.4.27](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.27) and download the branded setup from the release assets.
 
 GamePulse is self-contained. You do not need to install .NET separately.
 
@@ -58,6 +57,8 @@ GamePulse is self-contained. You do not need to install .NET separately.
 
 | Area | What it gives players |
 | --- | --- |
+| Theme Studio | App-wide Dashboard palette presets, saved custom colors, and instant preview updates. |
+| Overlay Studio | Compact Mode styling controls that stay outside the game and avoid hooks or injection. |
 | Compact Mode | A smaller always-on-top readout for live FPS, CPU, GPU, RAM, VRAM, and game-health context. |
 | Benchmark page | Guided baseline/comparison tests, one combined saved report, and plain-English takeaways for settings changes. |
 | Performance cockpit | Full dashboard with FPS, frame time, capture health, bottleneck context, and system pressure. |
@@ -114,7 +115,7 @@ GamePulse uses Velopack and this public GitHub repo as the update feed. Updates 
 
 ## Current Notes
 
-- Latest public version: `v0.4.26`.
+- Latest public version: `v0.4.27`.
 - **Report a bug** and **Request a feature** submit public GitHub feedback after Discord sign-in.
 - Production-trusted signing is planned; SmartScreen prompts remain expected for now.
 - Public stats and leaderboards are opt-in.

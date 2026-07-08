@@ -4,19 +4,19 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.26`
-- Main highlight: Driver Health and Latency controls
-- Release page: [GamePulse 0.4.26](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.26)
+- Latest public release: `v0.4.27`
+- Main highlight: Theme Studio and Overlay Studio customization
+- Release page: [GamePulse 0.4.27](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.27)
 - Public updater feed: active
 
-## Shipped In v0.4.26
+## Shipped In v0.4.27
 
-- Driver Health separates installable updates, attention items, real devices, and optional vendor tools.
-- GPU, chipset, BIOS, network, audio, and input-driver rows expose clearer vendor app/support actions.
-- NVIDIA online checks only claim a newer driver when GamePulse can tie the result to the detected product family.
-- Latency checks cover Windows, input, display, network, service, overlay, and security settings.
-- Selected latency tweaks have explicit Apply/Revert actions that restore original HKCU values or original absence.
-- Keeps the `v0.4.25` Fair-Play V2.1 leaderboard hardening, Store prototype source, FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
+- Theme Studio adds app-wide Dashboard palette presets, saved custom colors, and instant preview updates.
+- Overlay Studio adds Compact Mode styling controls while staying outside the game.
+- Dashboard Studio and Overlay Studio now sit together in the customization flow.
+- Theme switching persists cleaner with less settings churn.
+- Private feedback and score-submission ledger tables use explicit service-role-only database policies.
+- Keeps the `v0.4.26` Driver Health and Latency controls, `v0.4.25` Fair-Play V2.1 leaderboard hardening, Store prototype source, FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
 
 ## Known Notes
 
