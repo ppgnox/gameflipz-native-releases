@@ -26,7 +26,9 @@
 
 ---
 
-![GamePulse Driver Health and Latency Controls hero](assets/hero-drivers-latency.png)
+![GamePulse Theme Studio](assets/theme-studio.png)
+
+![GamePulse Overlay Studio](assets/overlay-studio.png)
 
 GamePulse is a lightweight Windows app that shows your real-time gaming performance without becoming a game overlay. It tracks FPS, frame timing, Benchmark runs, system pressure, game sessions, public leaderboard results, driver readiness, and latency signals from outside the game using native Windows telemetry paths.
 
@@ -68,6 +70,10 @@ GamePulse is self-contained. You do not need to install .NET separately.
 | Updater support | Installed builds check this public release feed and install only after the user chooses to update. |
 
 ## Screenshots
+
+![GamePulse Theme Studio](assets/theme-studio.png)
+
+![GamePulse Overlay Studio](assets/overlay-studio.png)
 
 ![GamePulse Driver Health Console](assets/drivers-console.png)
 

@@ -2,6 +2,18 @@
 
 These captures show the current GamePulse experience. They use real product screens and stay outside the game, with no overlay, injection, hooks, or game-memory access.
 
+## Theme Studio
+
+Theme Studio lets players choose app-wide Dashboard palettes, save custom colors, and see preview updates immediately.
+
+![GamePulse Theme Studio](../assets/theme-studio.png)
+
+## Overlay Studio
+
+Overlay Studio lets players tune Compact Mode colors, background opacity, borders, and effects while GamePulse remains outside the game.
+
+![GamePulse Overlay Studio](../assets/overlay-studio.png)
+
 ## Compact Mode
 
 Compact Mode keeps live FPS, CPU, GPU, RAM, VRAM, and game-health context visible in a smaller always-on-top widget while the full dashboard stays out of the way.

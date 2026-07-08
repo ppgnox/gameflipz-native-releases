@@ -2,6 +2,10 @@
 
 `v0.4.27` adds Theme Studio and Overlay Studio customization, then clears the private backend ledger RLS advisor findings with explicit service-role-only database policies.
 
+![GamePulse Theme Studio](../assets/theme-studio.png)
+
+![GamePulse Overlay Studio](../assets/overlay-studio.png)
+
 ## Download Links
 
 - Recommended installer: [GamePulse-Friend-Setup-0.4.27.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.27/GamePulse-Friend-Setup-0.4.27.exe)
