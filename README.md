@@ -6,14 +6,14 @@
 
 **Crosshair Studio | Theme Studio | Driver Health | Benchmark page | Compact Mode | live FPS**
 
-<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.28"><img alt="Latest release v0.4.28" src="https://img.shields.io/badge/latest-v0.4.28-2ea043"></a>
+<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.29"><img alt="Latest release v0.4.29" src="https://img.shields.io/badge/latest-v0.4.29-2ea043"></a>
 <a href="docs/install.md"><img alt="Windows 10 and 11 x64" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-0078D6"></a>
 <a href="docs/support.md"><img alt="App feedback" src="https://img.shields.io/badge/new-app%20feedback-00d9ff"></a>
 <a href="docs/privacy-and-safety.md"><img alt="Anti-cheat conservative" src="https://img.shields.io/badge/no%20overlays%20%2F%20hooks-anti--cheat%20conservative-8957e5"></a>
 <a href="docs/status.md"><img alt="Velopack updater" src="https://img.shields.io/badge/updater-Velopack-2ea043"></a>
 <a href="#is-this-safe-to-run"><img alt="Signing status: SmartScreen prompt expected" src="https://img.shields.io/badge/signing-SmartScreen%20prompt%20expected-e3b341"></a>
 
-<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.28/GamePulse-Friend-Setup-0.4.28.exe"><img alt="Download GamePulse 0.4.28 for Windows 10 and 11 x64" src="https://img.shields.io/badge/Download%20GamePulse%200.4.28-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge"></a>
+<a href="https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.29/GamePulse-Friend-Setup-0.4.29.exe"><img alt="Download GamePulse 0.4.29 for Windows 10 and 11 x64" src="https://img.shields.io/badge/Download%20GamePulse%200.4.29-Windows%2010%20%2F%2011%20x64-2ea043?style=for-the-badge"></a>
 
 [Install](docs/install.md) |
 [Screenshots](docs/screenshots.md) |
@@ -34,24 +34,22 @@ GamePulse is a lightweight Windows app that shows your real-time gaming performa
 
 Your data stays on your PC unless you choose to share public leaderboard stats.
 
-## New In v0.4.28: Crosshair Studio And Release Polish
+## New In v0.4.29: Smooth Responsive Scaling
 
-`v0.4.28` adds Crosshair Studio, improves release-critical UI clarity, and replaces the V Rising public leaderboard with Palworld.
+`v0.4.29` fixes the small-window regression reported after v0.4.28 while preserving the installed-user update path.
 
-- Crosshair Studio adds built-in and custom presets, folders, monitor controls, and one saved global toggle binding.
-- The crosshair stays disabled by default in a GamePulse-owned click-through window with no injection or graphics hooks.
-- Driver Health and Latency now use clearer readiness meters and review-first guidance.
-- Typography, responsive page sizing, navigation, Settings, and Support have been sharpened and cleaned up.
-- The approved V3 startup animation now uses an independent render path with reduced-motion fallback.
-- Palworld replaces V Rising in the public leaderboard tracker.
+- Smaller windows scale the complete GamePulse composition smoothly instead of jumping to oversized cards or pushing telemetry off-screen.
+- Dashboard, Benchmark, and other image/preview-heavy pages stay stable and edge-to-edge while resized or maximized.
+- Dashboard texture-tuning guidance is shorter in the card, with the full detail still available on hover.
+- Existing Velopack identity, install location, updater feed, and user-triggered update flow are unchanged.
 - No overlays, injection, hooks, game memory access, or game-file changes.
 - Dev-signed release: SmartScreen / unknown-publisher prompts are still expected.
 
 ## Download
 
-**Recommended:** [Download GamePulse-Friend-Setup-0.4.28.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.28/GamePulse-Friend-Setup-0.4.28.exe)
+**Recommended:** [Download GamePulse-Friend-Setup-0.4.29.exe](https://github.com/ppgnox/gameflipz-native-releases/releases/download/v0.4.29/GamePulse-Friend-Setup-0.4.29.exe)
 
-Prefer to read the notes first? Open [GamePulse 0.4.28](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.28) and download the branded setup from the release assets.
+Prefer to read the notes first? Open [GamePulse 0.4.29](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.29) and download the branded setup from the release assets.
 
 GamePulse is self-contained. You do not need to install .NET separately.
 
@@ -121,7 +119,7 @@ GamePulse uses Velopack and this public GitHub repo as the update feed. Updates 
 
 ## Current Notes
 
-- Latest public version: `v0.4.28`.
+- Latest public version: `v0.4.29`.
 - **Report a bug** and **Request a feature** submit public GitHub feedback after Discord sign-in.
 - Production-trusted signing is planned; SmartScreen prompts remain expected for now.
 - Public stats and leaderboards are opt-in.

@@ -4,19 +4,18 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.28`
-- Main highlight: Crosshair Studio, UI polish, and Palworld leaderboards
-- Release page: [GamePulse 0.4.28](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.28)
+- Latest public release: `v0.4.29`
+- Main highlight: Smooth small-window and maximized scaling
+- Release page: [GamePulse 0.4.29](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.29)
 - Public updater feed: active
 
-## Shipped In v0.4.28
+## Shipped In v0.4.29
 
-- Crosshair Studio adds presets, folders, monitor controls, and one saved global toggle while remaining external to games.
-- Driver Health and Latency use clearer readiness meters, compact layouts, and review-first guidance.
-- Typography, responsive sizing, navigation, Settings, Support, and the V3 startup animation are polished for release.
-- Palworld replaces V Rising in the public leaderboard tracker.
-- Fair-Play submission handling is more resilient to legitimate imperfect capture evidence.
-- Updater identity, install paths, PresentMon repair, telemetry ABI, and user-triggered update behavior remain compatible.
+- Normal windows scale one stable composition continuously through the supported minimum size.
+- Dashboard and Benchmark no longer switch topology or enlarge the FPS meter at the rejected resize thresholds.
+- Image and live-preview pages remain edge-to-edge when resized or maximized.
+- Dashboard texture-tuning guidance is shorter while its full detail remains available on hover.
+- Updater identity, install paths, PresentMon repair, telemetry ABI, and user-triggered update behavior remain compatible with v0.4.28 installs.
 
 ## Known Notes
 
