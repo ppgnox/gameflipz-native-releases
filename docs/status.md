@@ -4,19 +4,19 @@ This page keeps the public status clear without turning the README into a change
 
 ## Current Public Release
 
-- Latest public release: `v0.4.27`
-- Main highlight: Theme Studio and Overlay Studio customization
-- Release page: [GamePulse 0.4.27](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.27)
+- Latest public release: `v0.4.28`
+- Main highlight: Crosshair Studio, UI polish, and Palworld leaderboards
+- Release page: [GamePulse 0.4.28](https://github.com/ppgnox/gameflipz-native-releases/releases/tag/v0.4.28)
 - Public updater feed: active
 
-## Shipped In v0.4.27
+## Shipped In v0.4.28
 
-- Theme Studio adds app-wide Dashboard palette presets, saved custom colors, and instant preview updates.
-- Overlay Studio adds Compact Mode styling controls while staying outside the game.
-- Dashboard Studio and Overlay Studio now sit together in the customization flow.
-- Theme switching persists cleaner with less settings churn.
-- Private feedback and score-submission ledger tables use explicit service-role-only database policies.
-- Keeps the `v0.4.26` Driver Health and Latency controls, `v0.4.25` Fair-Play V2.1 leaderboard hardening, Store prototype source, FPS repair guards, diagnostics, privacy, auth, public-data, feedback, and installer hardening.
+- Crosshair Studio adds presets, folders, monitor controls, and one saved global toggle while remaining external to games.
+- Driver Health and Latency use clearer readiness meters, compact layouts, and review-first guidance.
+- Typography, responsive sizing, navigation, Settings, Support, and the V3 startup animation are polished for release.
+- Palworld replaces V Rising in the public leaderboard tracker.
+- Fair-Play submission handling is more resilient to legitimate imperfect capture evidence.
+- Updater identity, install paths, PresentMon repair, telemetry ABI, and user-triggered update behavior remain compatible.
 
 ## Known Notes
 
